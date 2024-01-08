@@ -1,0 +1,201 @@
+body {
+    background-color: #EEEEEE !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    padding: 1.25rem;
+    text-align: center;
+}
+p, li {
+    font-family: 'Karla', sans-serif;
+    color: #252525;
+}
+li {
+    list-style-type: none;
+}
+div > a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+video {
+    height: 12.5rem;
+}
+img {
+    height: 9.375rem;
+    width: auto;
+}
+footer > p {
+    color: #252525;
+    padding: 1.25rem;
+    text-align: center;
+}
+hr {
+    border-bottom: 1.875rem #252525 dotted;
+    width: 20.25rem;
+    position: relative;
+    left: 38.5%;
+}
+input, textarea{
+    margin: 2.5rem;
+    background-color: #F7F7F7;
+    border: 1px #252525 solid 
+}
+.navbar {
+    background-color: #EEEEEE;
+}
+.navbar-brand {
+    position:relative;
+    left: 0.25rem;
+}
+.nav-item {
+    position: relative;
+    right: 0.5rem;
+    padding-left: 0.620rem;
+    text-align: right;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar .container-fluid {
+    padding: 0.625rem;
+    font-size: 1rem;
+}
+.stars {
+    color: #c2a11e;
+}
+.item-skill {
+    padding: 1.25rem;
+    margin: 0.625rem;
+}
+.item-skill2 {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+}
+.skillsec {
+    height: 5.625rem;
+}
+.flag-lang {
+    height: 4.375rem;
+}
+.lang-sec {
+    padding: 1.25rem;
+}
+.school {
+    float: left;
+    position: relative;
+    left: 12.5rem;
+    top: 3.125rem;
+    width: 9.375rem;
+    height: auto;
+}
+.logo-education {
+    width: 9.375rem;
+    height: auto;
+}
+.edu {
+    width: 37.5rem;
+    position: relative;
+    left: 25rem;
+    margin: 2.5rem;
+    text-align: justify;
+}
+.container {
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+#form {
+    margin: 2.5rem;
+}
+#about {
+    text-align: center;
+    padding: 1.875rem;
+}
+#other {
+    text-align: center;
+}
+#herosec {
+    padding: 1.25rem;
+    text-align: center;
+}
+#about-me {
+    width: 60%;
+    position: relative;
+    text-align: center;
+    padding: 2.5rem;
+    left: 20%;
+}
+#hero, #head, #knit {
+    color: #252525;
+    padding: 1.875rem;
+}
+#aboutme, #apps, #job {
+    color: #1a1a1a;
+    padding: 1.875rem;
+}
+#education {
+    color: #252525;
+    padding: 1.875rem;
+}
+#webdes, #webdev {
+    padding: 3.125rem;
+}
+#webdes img {
+    float: left;
+}
+#skill {
+    color: #1A1A1A;
+    padding: 1.875rem;
+}
+#sprache {
+    color: #252525;
+    padding: 1.875rem;
+}
+#projects {
+    padding: 2.5rem;
+}
+#contactings {
+    text-align: center;
+    padding: 1.875rem;
+}
+
+#other {
+    color: #39311D;
+    padding: 1.875rem;
+}
+
+@media only screen and (max-width: 600px) {
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 0.4rem;
+    }
+    p, li {
+        font-size: 0.8rem;
+    }
+    .col-4 {
+        max-width: 10%;
+    }
+    .col-3 {
+        max-width: 30%;
+    }
+    .course {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
+    hr {
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+    .school {
+        position: relative;
+        top: 0;
+        left: 2.25rem;
+        padding:1.25rem;
+        float: right;
+    }
+    .edu {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        text-align: center;
+    }
+}

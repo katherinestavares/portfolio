@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(Quicksand\ copy/);
+  }
+h1, h2, h5, h6, p {
+    text-align: center;
+    color: #E6DEDD;
+}
+div h2, div h5 {
+    color: #E6DEDD;
+}
+h1, h2, h5, h6 {
+    font-family: "Quicksand";
+}
+h2 {
+    font-size: 25px;
+}
+h5 {
+    color:#E6DEDD;
+    font-size: 20px;
+}
+body {
+    background-image: linear-gradient( #AF0404 , #252525);;
+}
+#title1, #title2, #title3, #title4{
+    color:#E6DEDD;
+    font-size: 20px;
+}
+#fin, #ame, #rest {
+    color:#E6DEDD;
+    font-size: 15px;
+}
+p {
+    font-size: 15px;
+    color:#E6DEDD;
+}
+.navbar, .dropdown {
+    background-color: #AF0404;
+}
+.navbar li a {
+    color: #E6DEDD;
+}
+.nav .dropdown-menu .content .dropdown-item{
+    background-color: #AF0404;
+}
+.dropdown-menu {
+    background-color: #AF0404;
+}
+.dropdown-item {
+    background-color: #AF0404;
+}
+header {
+    color: #E6DEDD;
+    padding: 50px 0px 0px 0px;
+}
+#disco {
+    color: #E6DEDD;
+    padding: 50px;
+}
+.card-body {
+    background-color: #781111;
+    color: #E6DEDD;
+    border-style: none;
+}
+.card-group {
+    border: none;
+}
+#tour {
+    color: #E6DEDD; 
+    padding: 50px;
+}
+table {
+
+}
+th, td {
+    color: #E6DEDD;
+}
+.text {
+    color: #FF0000;
+}
+#contacts {
+
+    padding-top: 50px;
+}
+.btn {
+    height: 40px;
+}
+#send {
+    margin-top: 20px;
+    height: 40px;
+}
+#mail {
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.form {
+    width: 450px;
+    padding-top: 20px;
+}
+#fantime {
+    padding-top: 90px;
+}
+.section-send {
+    padding: 10px;
+    margin-top: 20px;
+}
+footer {
+    text-align: center;
+    padding: 50px;
+}
+.fa-brands {
+    padding: 20px;
+    color: #AF0404
+}
+i:hover {
+    color: #FF0000;
+}
+.album {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
