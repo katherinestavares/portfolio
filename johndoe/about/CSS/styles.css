@@ -1,0 +1,240 @@
+@font-face {
+    font-family: Caveat-VariableFont-wght;
+    src: url(Caveat-VariableFont-wght.ttf);
+}
+
+header{
+    text-align: center;
+    background-color: #1d1d1d;
+}
+
+body {
+    background-color: #1d1d1d;
+}
+
+h1, h2, h3 {
+    color: #c52233;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+h3 {
+    font-size: 30px;
+    text-decoration: undeline;
+    margin-left: 20px;
+}
+
+h4 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #c52233;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-indent: 30px;
+}
+
+p {
+    font-size: 36px;
+}
+
+nav, aside, footer {
+    text-align: center;
+    font-size: 30px;
+}
+
+nav, aside {
+    background-color: #c52233;
+}
+
+nav {
+    padding: 50px;
+}
+
+footer {
+    background-color: #262626;
+    display: inline-block;
+    width: 100%;
+}
+
+article {
+    background-image: linear-gradient(to right, #1d1d1d, #c52233, #fff);
+}
+
+aside {
+    width: 100%;
+    height: 200px;
+    background-color: #262626;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201123/pngtree-black-background-template-vol-1-image_499096.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;;
+}
+
+
+
+#picJD {
+    width:500px;
+}
+
+#tit_gosto {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
+    color: #fff;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#books, #plane {
+    width: 200px;
+}
+
+#ler, #viajar {
+    border: 1px dotted #fff;
+    display: inline-block;
+    width:45%;
+    padding: 2%;
+}
+
+#tit-header {
+    position: absolute;
+    width: 50%;
+    top: 350px;
+    left: 25%;
+}
+
+#telefone, #mail, #morada {
+    display: inline-block;
+    width: 25%;
+    padding: 0px 50px;
+}
+
+#mail {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+
+
+.nomepagina {
+    font-size: 44px;
+    text-align: right;
+    padding: 50px 100px;
+}
+
+.paragrafo2 {
+    background-color: #d7d7d7;
+}
+
+.link-1 {
+    text-align: center;
+}
+
+.quem-image {
+    float: left;
+}
+
+.quem-image, .quem-paragrafo1, .quem-paragrafo2 {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.quem-paragrafo1, .quem-paragrafo2 {
+    max-width: 33.3%;
+    padding: 30px;
+}
+
+.pref-ler-viajar {
+    float: right;
+}
+
+.botao {
+    float: right;
+    font-size: 40px;
+}
+
+.fa-solid, .fa-brands {
+    font-size: 25px;
+    color: #fff;
+    margin: 20px;
+}
+
+.fa-solid{
+    color: #c52233;
+}
+
+.redes-sociais {
+    text-align: center;
+    border-bottom: none;
+    padding-top: 50px;
+}
+
+.fa-square-instagram {
+    margin-left: 100px;
+    margin-right:100px;
+}
+
+.contactos-texto {
+    color: #fff;
+}
+
+
+
+h1::before,  h1::after {
+    content: ". . .";
+    color: #fff;
+}
+
+a:link, a:visited, a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 36px;
+}
+
+div.gostos {
+    background-color: #d7d7d7;
+}
+
+a.link1 {
+    font-size: 60px;
+    color: #fff;
+    border:2px solid #c52233;
+    text-decoration: none;
+}
+
+a.link1:hover {
+    text-decoration: underline;
+}
+
+a.menu {
+    border-left: 6px solid  #fff;
+}
+
+a.botao::before {
+    content: "___";
+    color: #fff;
+}
+
+img#picJD1, img#picJD3 {
+    width: 200px;
+    border-radius: 100px;
+    border:0.5px solid #fff;
+}
+
+img#picJD1 {
+    opacity: 0.2;
+}
+
+img#picJD3 {
+    opacity: 0.8;
+}
+
+img#picjd2 {
+    width: 250px;
+    border-radius: 125px;
+    border: 0.5px  solid #fff;
+    
+}

@@ -1,0 +1,203 @@
+/*ELEMENTOS*/
+body {
+    background-color: #1D1D1D;
+}
+header {
+    text-align: center;
+    background-color: #1D1D1D;;
+}
+h1, h2, h3 {
+    color: #C52233;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-family: 'Caveat', cursive;;
+}
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 50px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+h4{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    color:#c52233;
+}
+p{
+    font-size: 36px;
+}
+nav, aside, footer {
+    text-align: center;
+    font-size: 30px;
+}
+nav, aside {
+    background-color: #C52233;
+}
+nav {
+    padding: 50px;
+}
+aside {
+    width: 100%;
+    height: 200px;
+    background-color: #262626;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201123/pngtree-black-background-template-vol-1-image_499096.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+footer {
+    background-color: #262626;
+}
+article {
+    background-image: linear-gradient(to right, #1D1D1D, #c52233, #fff);
+    font-family: 'Caveat', cursive;
+}
+
+/*ELEMENTOS EXTRA*/
+h1::before,  h1::after {
+    content: "...";
+    color: #fff;
+}
+a:link, a:visited, a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 36px;
+}
+div.likes {
+    background-color: #d7d7d7;
+    margin-top: 50px;
+}
+a.button:link, a.button:visited, a.button:hover {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-size: 42px;
+}
+a.button:hover {
+    background-color: #000;
+    color: #fff;
+}
+a.link1 {
+    font-size: 60px;
+    color: #fff;
+    border: 2px solid #C52233;
+    text-decoration: none;
+}
+a.link1:hover {
+    text-decoration: underline;
+}
+a.menu {
+    border-left: 6px solid #fff;
+    margin-left: 50px;
+    padding-left: 10px;
+}
+span#John-Doe-text {
+    font-weight: bold;
+}
+img#picjd1, img#picjd3 {
+    width: 200px;
+    border-radius: 100px;
+    border: 0.5px solid #FF0000;
+}
+img#picjd1 {
+    opacity: 0.2;
+}
+img#picjd3 {
+    opacity: 0.8;
+}
+img#picjd2 {
+    width: 250px;
+    border-radius: 125px;
+    border: 0.5px solid #FF0000;
+}
+
+/*CLASSES*/
+.homepage {
+    font-size: 44px;
+    text-align:right;
+    padding: 50px;
+}
+.paragrafo-1, .paragrafo-2 {
+    max-width: 33.3%;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 30px;
+}
+.paragrafo-2 {
+    background-color: #d7d7d7;
+}
+.link1 {
+    text-align: center;
+}
+.whoJD {
+    display:inline-block;
+    margin-left: 30px;
+    float :left;
+}
+.preferidos {
+    float: right;
+}
+.redes-sociais {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 50px;
+}
+.icon{
+    font-size: 50px;
+    color:#fff;
+}
+.icon2 {
+    color: #C52233;
+    font-size: 30px;
+}
+i.fa-instagram {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.contactos-jd {
+    color: #fff;
+}
+
+/*IDS*/
+#picJD {
+    width:500px;
+}
+#jdpic {
+    width: 200px;
+}
+#tit-likes {
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+#plane, #books {
+    width: 200px;
+}
+#ler, #viajar {
+    border: 1px dotted #fff;
+    display: inline-block;
+    width:45%;
+}
+#header {
+    position:absolute;
+    width: 50%;
+    top: 350px;
+    left: 25%;
+}
+#telefone, #mail, #morada {
+    display: inline-block;
+    width: 25%;
+    padding: 0px 50px;
+}
+#mail {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
