@@ -60,6 +60,14 @@ input, textarea{
     padding: 0.625rem;
     font-size: 1rem;
 }
+.name {
+    width: 35%;
+    position: relative;
+   left: 22%;
+    top: 0;
+    z-index: -1;
+    display: inline-block;
+}
 .stars {
     color: #c2a11e;
 }
@@ -102,6 +110,12 @@ input, textarea{
 .container {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
+}
+#profilephoto {
+    position: relative;
+    left: 20%;
+    z-index: 1;
+    display: inline-block;
 }
 #form {
     margin: 2.5rem;
