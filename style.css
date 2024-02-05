@@ -194,6 +194,14 @@ input, textarea{
         padding-top: 1.25rem;
         padding-bottom: 1.25rem;
     }
+        img#profilephoto {
+        display: flex;
+        align-self: auto;
+    }
+    .name {
+        display: flex;
+        flex-direction: column;
+    }
     hr {
         width: 50%;
         position: relative;
